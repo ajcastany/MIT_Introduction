@@ -8,11 +8,11 @@ to the cube root of both negative and positive numbers?
 """
 
 #Copy figure 3.4
-x = 25
+x = -25
 epsilon = 0.01
 numGuesses = 0
 low = 0.0
-high = max(1.0, x)
+high = max(1.0, abs(x))
 ans = (high + low)/2.0
 
 while abs(ans**2 - abs(x)) >= epsilon: 							#bisection search, divides the search space in half at each step
