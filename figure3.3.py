@@ -17,4 +17,3 @@ print('NumGuesses = ', numGuesses)
 if abs(ans**2 - x) >= epsilon:
 	print('Failed on square root of,', x)
 else:
-	print(ans, 'is close to square root of', x)
