@@ -2,9 +2,13 @@
 Finger Exercise 7:
 =======================================================================
 What would the code in figure 3.4 do if the statement x = 25 were replaced by x = -25
+What would have to be changed to make the code work for finding an approximation
+to the cube root of both negative and positive numbers?
+(HINT: Think about changing low to ensure that the answer lies wityhin the region being searched)
 """
 
 #Copy figure 3.4
+x = 25
 epsilon = 0.01
 numGuesses = 0
 low = 0.0
