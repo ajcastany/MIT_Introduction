@@ -15,10 +15,10 @@ low = 0.0
 high = max(1.0, x)
 ans = (high + low)/2.0
 
-while abs(ans**2 - x) >= epsilon: 							#bisection search, divides the search space in half at each step
+while abs(ans**2 - abs(x)) >= epsilon: 							#bisection search, divides the search space in half at each step
 	print('low = ', low, 'high = ', high, 'ans =', ans)
 	numGuesses += 1
-	if ans**2 < x:
+	if ans**2 < abs(x):
 		low = ans
 	else:
 		high = ans
