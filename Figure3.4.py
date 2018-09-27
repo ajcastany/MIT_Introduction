@@ -1,4 +1,4 @@
-"""Figure 3.4 
+"""Figure 3.4
 =============================================================
 Using bisection search to aproximate square root
 """
