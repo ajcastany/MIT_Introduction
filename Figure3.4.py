@@ -20,3 +20,4 @@ while abs(ans**2 - x) >= epsilon: 							#bisection search, divides the search s
 	ans = (high + low )/2.0
 
 print('numGuesses = ', numGuesses)
+# 

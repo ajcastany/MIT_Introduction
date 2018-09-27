@@ -12,7 +12,7 @@ to the cube root of both negative and positive numbers?
 x = -27
 epsilon = 0.01
 numGuesses = 0
-low = 0.0
+low = 
 high = max(1.0, abs(x))
 ans = (high + low)/2.0
 
